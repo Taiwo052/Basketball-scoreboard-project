@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">       
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home_container">
+                <h3>HOME</h3>
+                <h2 id="home_score">12</h2>
+                <div class="button_container">
+                    <button id="home_score_btn1" onclick="homeIncrementOne()">+1</button>
+                    <button id="home_score_btn2" onclick="homeIncrementTwo()">+2</button>
+                    <button id="home_score_btn3" onclick="homeIncrementThree()">+3</button>
+                </div>
+            </div>
+            <div id="guest_container">
+                <h3>GUEST</h3>
+                <h2 id="guest_score">5</h2>
+                <div class="button_container">
+                    <button id="guest_score_btn1" onclick="guestIncrementOne()">+1</button>
+                    <button id="guest_score_btn2" onclick="guestIncrementTwo()">+2</button>
+                    <button id="guest_score_btn3" onclick="guestIncrementThree()">+3</button>
+                </div>
+            </div>
+        </div>
+            <button id=btn1 onclick="start()">Start Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>

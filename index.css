@@ -1,0 +1,81 @@
+:root{
+    font-family: 'Verdana' sans-serif;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    border: none;           
+}
+body {
+    height: 100vh;
+    background: #1B244A;
+    color: #EEEEEE;
+    margin: auto 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-family: 'Verdana' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center; 
+}
+
+h2{
+    font-family: 'Cursed Timer ULiL' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    border: none;
+    background: #080001;
+    margin: 21px 0 26px;
+    border-radius: 5px;
+}
+
+.button_container{
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+button{
+    padding: 10px 16px;
+    border: 2px solid #9AABD8;
+    background: none;
+    margin: 21px 0 26px;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#btn1{
+    width: 90%;
+    padding: 10px 16px;
+    border: none;
+    background:  #EEEEEE;;
+    margin: 21px auto;
+    border-radius: 5px;
+    color: #1B244A;
+    font-family: 'Cursed Timer ULiL' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
