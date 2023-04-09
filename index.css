@@ -1,5 +1,5 @@
 :root{
-    font-family: 'Verdana' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-family: 'Cursed Timer ULiL', sans-serif;
     margin: 0;
     padding: 0;   
@@ -7,10 +7,11 @@
     border: none;           
 }
 body {
-    height: 100vh;
-    background: #1B244A;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(27, 36, 74)), url("https://t3.ftcdn.net/jpg/03/12/48/90/360_F_312489086_rHfm0wNbzxF2V7dE7eybUkaphY1sILNz.jpg");
     color: #EEEEEE;
-    margin: auto 0;
+    background-color: transparent;
+    background-size: cover;
+    margin: 115px auto 0;
     text-align: center;
 }
 
@@ -20,7 +21,7 @@ body {
 }
 
 h3{
-    font-family: 'Verdana' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -64,17 +65,17 @@ button{
 }
 
 #btn1{
-    width: 90%;
+    width: 500px;
     padding: 10px 16px;
     border: none;
     background:  #EEEEEE;;
     margin: 21px auto;
     border-radius: 5px;
     color: #1B244A;
-    font-family: 'Cursed Timer ULiL' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 28px;
     text-align: center;
 }

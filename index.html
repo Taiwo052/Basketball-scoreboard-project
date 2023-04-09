@@ -1,13 +1,15 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link href="https://fonts.cdnfonts.com/css/verdana-pro-cond" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">       
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
             <div id="home_container">
-                <h3>HOME</h3>
+                <h3 id= "home">HOME</h3>
                 <h2 id="home_score">12</h2>
                 <div class="button_container">
                     <button id="home_score_btn1" onclick="homeIncrementOne()">+1</button>
@@ -16,7 +18,7 @@
                 </div>
             </div>
             <div id="guest_container">
-                <h3>GUEST</h3>
+                <h3 id= "guest">GUEST</h3>
                 <h2 id="guest_score">5</h2>
                 <div class="button_container">
                     <button id="guest_score_btn1" onclick="guestIncrementOne()">+1</button>

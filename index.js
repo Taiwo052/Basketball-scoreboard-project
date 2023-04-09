@@ -4,11 +4,10 @@ let homeScoreBtn1 = document.getElementById("home_score_btn1")
 let homeScore = 0
 let guestScore = 0
 
-console.log(homeScore)
-
 function start(){
     homeScoreEl.textContent = 0
     guestScoreEl.textContent = 0
+    
 } 
 
 function homeIncrementOne(){
